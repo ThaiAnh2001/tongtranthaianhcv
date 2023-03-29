@@ -1,0 +1,144 @@
+
+/*css global*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial", "Helvetica Neue";
+}
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("./bk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.full-cv {
+    width: 50vw;
+    min-width: 750px;
+    height: 100%;
+    padding: 30px 50px;
+    margin: 50px 0;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 3px;
+    background-image: url("https://img.meta.com.vn/Data/image/2021/09/30/background-la-gi-anh-background-dep-9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* css root */
+:root {
+    --primary-color: #6699ff;
+}
+/* css component */
+.item-icon {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.item-icon-i {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+
+/* css header */
+header {
+    width: 100%;
+    display: flex;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid var(--primary-color);
+}
+
+.avatar__picture {
+    width: 150px;
+    height: 150px;
+}
+
+.header__wrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--primary-color);
+    padding: 20px;
+    color: var(--primary-color);
+}
+
+.header__header h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.header__header h3 {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+.header__content {
+    display: flex;
+    padding: 10px 0 0 20px;
+}
+
+.header__content__column {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-indent {
+    text-indent: 25px;
+}
+/* css body */
+h4 {
+    margin: 10px 0 4px 0;
+}
+section {
+    margin-top: 15px;
+}
+
+.section p {
+    text-align: justify;
+}
+
+.section.section__row-child {
+    width: 50%;
+}
+
+.section__row:first-child, .section.section__row-child:first-child {
+    margin-right: 20px;
+}
+
+.section__header {
+    width: 100%;
+    color: var(--primary-color);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.section__header__content p {
+    text-align: justify;
+}
+.section__row {
+    display: flex;
+}
+/* css footer */
+
+/* css responsive */
